@@ -1,0 +1,23 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/comm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-codec-1.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ip-camera-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javacv.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jSerialComm-1.3.11.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.33-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/opencv-2410.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/opencv-320.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/RXTXcomm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/sqlite-jdbc-3.14.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webcam-capture-0.3.10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/webcam-capture-driver-ipcam-0.3.10-RC7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/opencv-2410.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/opencv-320.jar!/" />
+    </SOURCES>
+  </library>
+</component>

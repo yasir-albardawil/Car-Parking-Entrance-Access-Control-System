@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<project name="Car Parking Entrance Access Control System" default="do-deploy" basedir="."  xmlns:fx="javafx:com.sun.javafx.tools.ant">
+	<target name="init-fx-tasks">
+		<path id="fxant">
+			<filelist>
+				<file name="${java.home}\..\lib\ant-javafx.jar"/>
+				<file name="${java.home}\lib\jfxrt.jar"/>
+			</filelist>
+		</path>
+	
+		<taskdef resource="com/sun/javafx/tools/ant/antlib.xml"
+			uri="javafx:com.sun.javafx.tools.ant"
+			classpathref="fxant"/>
+	</target>
+	<target name="setup-staging-area">
+		<delete dir="externalLibs" />
+		<delete dir="project" />
+		<delete dir="projectRefs" />
+	
+		<mkdir dir="externalLibs" />
+	
+		<copy todir="externalLibs">
+			<fileset dir="C:\Users\Yasir\workspace\Car Parking Entrance Access Control System\lib">
+				<filename name="RXTXcomm.jar"/>
+			</fileset>
+		</copy>
+		<copy todir="externalLibs">
+			<fileset dir="C:\Users\Yasir\workspace\Car Parking Entrance Access Control System\lib">
+				<filename name="commons-codec-1.10.jar"/>
+			</fileset>
+		</copy>
+		<copy todir="externalLibs">
+			<fileset dir="C:\Users\Yasir\workspace\Car Parking Entrance Access Control System\lib">
+				<filename name="opencv-2410.jar"/>
+			</fileset>
+		</copy>
+		<copy todir="externalLibs">
+			<fileset dir="C:\Users\Yasir\workspace\Car Parking Entrance Access Control System\lib">
+				<filename name="sqlite-jdbc-3.14.2.1.jar"/>
+			</fileset>
+		</copy>
+		<copy todir="externalLibs">
+			<fileset dir="C:\Users\Yasir\workspace\Car Parking Entrance Access Control System\lib">
+				<filename name="jSerialComm-1.3.11.jar"/>
+			</fileset>
+		</copy>
+		<copy todir="externalLibs">
+			<fileset dir="C:\Users\Yasir\workspace\Car Parking Entrance Access Control System\lib">
+				<filename name="opencv-2.4.8-windows-x86_64.jar"/>
+			</fileset>
+		</copy>
+		<copy todir="externalLibs">
+			<fileset dir="C:\Users\Yasir\workspace\Car Parking Entrance Access Control System\lib">
+				<filename name="mysql-connector-java-5.1.33-bin.jar"/>
+			</fileset>
+		</copy>
+		<copy todir="externalLibs">
+			<fileset dir="C:\Users\Yasir\workspace\Car Parking Entrance Access Control System\lib">
+				<filename name="opencv-320.jar"/>
+			</fileset>
+		</copy>
+		<copy todir="externalLibs">
+			<fileset dir="C:\Users\Yasir\workspace\Car Parking Entrance Access Control System\lib">
+				<filename name="ffmpeg-2.1.1-windows-x86_64.jar"/>
+			</fileset>
+		</copy>
+	
+		<mkdir dir="project" />
+		<copy todir="project">
+			<fileset dir="C:\Users\Yasir\workspace\Car Parking Entrance Access Control System">
+				<include name="src/**" />
+			</fileset>
+		</copy>
+	
+		<mkdir dir="projectRefs" />
+	</target>
+	<target name='do-compile'>
+		<delete dir="build" />
+		<mkdir dir="build/src" />
+		<mkdir dir="build/libs" />
+		<mkdir dir="build/classes" />
+	
+		<!-- Copy project-libs references -->
+		<copy todir="build/libs">
+			<fileset dir="externalLibs">
+				<include name="RXTXcomm.jar"/>
+				<include name="mysql-connector-java-5.1.33-bin.jar"/>
+				<include name="opencv-2.4.8-windows-x86_64.jar"/>
+				<include name="commons-codec-1.10.jar"/>
+				<include name="opencv-320.jar"/>
+				<include name="opencv-2410.jar"/>
+				<include name="jSerialComm-1.3.11.jar"/>
+				<include name="sqlite-jdbc-3.14.2.1.jar"/>
+				<include name="ffmpeg-2.1.1-windows-x86_64.jar"/>
+			</fileset>
+		</copy>
+	
+		<!-- Copy project references -->
+	
+		<!-- Copy project sources itself -->
+		<copy todir="build/src">
+			<fileset dir="project/src">
+				<include name="**/*"/>
+			</fileset>
+		</copy>
+	
+		<javac includeantruntime="false" source="1.8" target="1.8" srcdir="build/src" destdir="build/classes" encoding="Cp1256">
+			<classpath>
+				<fileset dir="build/libs">
+					<include name="*"/>
+				</fileset>
+			</classpath>
+		</javac>
+	
+		<!-- Copy over none Java-Files -->
+		<copy todir="build/classes">
+		<fileset dir="project/src">
+			<exclude name="**/*.java"/>
+		</fileset>
+		</copy>
+	
+	
+	</target>
+	<target name="do-deploy" depends="setup-staging-area, do-compile, init-fx-tasks">
+		<delete file="dist"/>
+		<delete file="deploy" />
+	
+		<mkdir dir="dist" />
+		<mkdir dir="dist/libs" />
+	
+		<copy todir="dist/libs">
+			<fileset dir="externalLibs">
+				<include name="*" />
+			</fileset>
+		</copy>
+	
+	
+		<fx:resources id="appRes">
+			<fx:fileset dir="dist" includes="Car Parking Entrance Access Control System.jar"/>
+			<fx:fileset dir="dist" includes="libs/*"/>
+		</fx:resources>
+	
+		<fx:application id="fxApplication"
+			name="Car Parking Entrance Access Control System"
+			mainClass="net.yasir.app.MainApp"
+			toolkit="fx"
+		/>
+	
+		<mkdir dir="build/classes/META-INF" />
+	
+		
+	
+		<mkdir dir="build/classes/META-INF/m" />
+		<copy
+			todir="build/classes/META-INF/m"
+			file="C:\Users\Yasir\workspace\Car Parking Entrance Access Control System\META-INF\MANIFEST.MF"
+		/>
+	
+		<fx:jar destfile="dist/Car Parking Entrance Access Control System.jar">
+			<fx:application refid="fxApplication"/>
+			<fileset dir="build/classes">
+			</fileset>
+			<fx:resources refid="appRes"/>
+	
+			<manifest>
+				<attribute name="Implementation-Vendor" value="yasir.net"/>
+				<attribute name="Implementation-Title" value="Car Parking Entrance Access Control System"/>
+				<attribute name="Implementation-Version" value="1.1"/>
+				<attribute name="JavaFX-Feature-Proxy" value="None"/>
+			</manifest>
+		</fx:jar>
+	
+	
+		<mkdir dir="deploy" />
+		<!-- Need to use ${basedir} because somehow the ant task is calculating the directory differently -->
+		<fx:deploy
+			embedJNLP="false"
+			extension="false"
+			includeDT="false"
+			offlineAllowed="true"
+			outdir="${basedir}/deploy"
+			outfile="Car Parking Entrance Access Control System" nativeBundles="exe"
+			updatemode="background" >
+	
+			<fx:platform basedir="${java.home}"/>
+			<fx:info title="Car Parking Entrance Access Control System" vendor="yasir.net"/>
+	
+			<fx:application refId="fxApplication"/>
+			<fx:resources refid="appRes"/>
+		</fx:deploy>
+	
+	
+	</target>
+</project>

@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: comm opencv-2410 opencv-320 RXTXcomm sqlite-jdbc-3.14.2.1 
+ mysql-connector-java-5.1.33-bin javacv ffmpeg-2.1.1-windows-x86_64 jS
+ erialComm-1.3.11
+Main-Class: net.yasir.app.MainApp
+

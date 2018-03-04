@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<anttasks:AntTask xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:anttasks="http://org.eclipse.fx.ide.jdt/1.0" buildDirectory="${project}/build">
+  <deploy packagingFormat="exe">
+    <application name="AddressApp-Part-1" mainclass="net.yasir.app.MainApp" version="1.1" toolkit="fx"/>
+    <info title="Car Parking Entrance Access Control System" vendor="yasir.net"/>
+  </deploy>
+  <signjar/>
+  <files key="m" value="C:\Users\Yasir\workspace\Car Parking Entrance Access Control System\META-INF\MANIFEST.MF"/>
+</anttasks:AntTask>
