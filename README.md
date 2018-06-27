@@ -6,7 +6,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ## Requirements
 
-* Java Developer Kit 8
+* Java Development Kit 8
 * MySQL database
 
 ## Built With
