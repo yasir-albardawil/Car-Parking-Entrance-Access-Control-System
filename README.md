@@ -18,10 +18,10 @@ These instructions will get you a copy of the project up and running on your loc
 * [Arduino](https://www.arduino.cc/) - Open-source electronic prototyping platform enabling users to create interactive electronic objects.
 
 ## Default Login Credentials
-| Username  | Password |
-| ------------- | ------------- |
-| Admin | Admin |
-
+Role | Username | Password |
+| ------------- | ------------- | ------------- |
+Admin | 1 | 1 |
+User| 2 | 2 |
 ## Author
 
 * **Yasir Albardawil** - *Initial work* - [yasir-albardawil](https://github.com/yasir-albardawil)
