@@ -9,6 +9,7 @@ These instructions will get you a copy of the project up and running on your loc
 * Java Development Kit 8
 * MySQL database
 * Arduino connected with servo motor, LEDs and motion sensor
+* IP Camera 
 
 
 ## Built With
