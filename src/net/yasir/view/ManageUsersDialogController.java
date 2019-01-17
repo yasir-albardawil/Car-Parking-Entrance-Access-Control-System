@@ -84,7 +84,7 @@ public class ManageUsersDialogController {
 	/**
 	 * Sets the carData to be edited in the dialog.
 	 * 
-	 * @param carData
+	 * @param login
 	 * @throws ClassNotFoundException
 	 */
 	public void setLogin(Login login) throws ClassNotFoundException {
@@ -227,7 +227,7 @@ public class ManageUsersDialogController {
 	 * Fills all text fields to show details about the person. If the specified
 	 * person is null, all text fields are cleared.
 	 * 
-	 * @param person
+	 * @param login
 	 *            the person or null
 	 */
 	private void showUsersDetails(Login login) {
@@ -476,7 +476,7 @@ public class ManageUsersDialogController {
 	 * clicks OK, the changes are saved into the provided Car data object and
 	 * true is returned.
 	 * 
-	 * @param Car
+	 * @param login
 	 *            data the Car data object to be edited
 	 * @return true if the user clicked OK, false otherwise.
 	 * @throws ClassNotFoundException
@@ -524,8 +524,8 @@ public class ManageUsersDialogController {
 	 * clicks OK, the changes are saved into the provided Car data object and
 	 * true is returned.
 	 * 
-	 * @param Car
-	 *            data the Car data object to be edited
+	 * @param login
+	 *      Connect the sensor      data the Car data object to be edited
 	 * @return true if the user clicked OK, false otherwise.
 	 * @throws ClassNotFoundException
 	 */

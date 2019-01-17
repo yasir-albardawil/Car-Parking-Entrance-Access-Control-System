@@ -18,7 +18,7 @@ public class LoginDialogController {
 	@FXML
 	private TextField usernameTextField;
 	@FXML
-	private TextField passowrdTextField;
+	private TextField passwordTextField;
 	@FXML
 	private ComboBox<String> roleComboBox;
 
@@ -77,7 +77,7 @@ public class LoginDialogController {
 	@FXML
 	public void handleLogin() throws ClassNotFoundException {
 		String sql = "SELECT * FROM login WHERE Username='" + usernameTextField.getText() + "' AND Password='"
-				+ MD5encrption.EncryptText(passowrdTextField.getText()) + "' AND Role='" + roleComboBox.getValue()
+				+ MD5encrption.EncryptText(passwordTextField.getText()) + "' AND Role='" + roleComboBox.getValue()
 				+ "';";
 		if (isInputValid()) {
 			okClicked = true;
@@ -124,16 +124,15 @@ public class LoginDialogController {
 	 * Validates the user input in the text fields.
 	 * 
 	 * @return true if the input is valid
-	 * @throws ClassNotFoundException
 	 */
-	private boolean isInputValid() throws ClassNotFoundException {
+	private boolean isInputValid() {
 		String errorMessage = "";
 
 		if (usernameTextField.getText() == null || usernameTextField.getText().length() == 0) {
 			errorMessage += "No valid username!\n";
 		}
 
-		if (passowrdTextField.getText() == null || passowrdTextField.getText().length() == 0) {
+		if (passwordTextField.getText() == null || passwordTextField.getText().length() == 0) {
 			errorMessage += "No valid password!\n";
 		}
 

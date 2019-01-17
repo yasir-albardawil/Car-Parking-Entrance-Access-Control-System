@@ -36,9 +36,9 @@ public class VehicleLoginInformation {
         	this.no = new SimpleIntegerProperty(no);
             this.plateNumber = new SimpleStringProperty(plateNumber);
             this.confidence = new SimpleFloatProperty(confidence);
-            this.statusObject = new SimpleObjectProperty<ImageView>(statusObject);
+            this.statusObject = new SimpleObjectProperty<>(statusObject);
             this.date = new SimpleStringProperty(date);
-            this.image = new SimpleObjectProperty<ImageView>(image);
+            this.image = new SimpleObjectProperty<>(image);
         }
        
 
@@ -46,16 +46,16 @@ public class VehicleLoginInformation {
         public VehicleLoginInformation(String plateNumber, Float confidence, ImageView statusObject, String date) {
             this.plateNumber = new SimpleStringProperty(plateNumber);
             this.confidence = new SimpleFloatProperty(confidence);
-            this.statusObject = new SimpleObjectProperty<ImageView>(statusObject);
+            this.statusObject = new SimpleObjectProperty<>(statusObject);
             this.date = new SimpleStringProperty(date);
         }
         
         public VehicleLoginInformation(String plateNumber, Float confidence, ImageView statusObject, String date, ImageView image) {
             this.plateNumber = new SimpleStringProperty(plateNumber);
             this.confidence = new SimpleFloatProperty(confidence);
-            this.statusObject = new SimpleObjectProperty<ImageView>(statusObject);
+            this.statusObject = new SimpleObjectProperty<>(statusObject);
             this.date = new SimpleStringProperty(date);
-            this.image = new SimpleObjectProperty<ImageView>(image);
+            this.image = new SimpleObjectProperty<>(image);
         }
         
 

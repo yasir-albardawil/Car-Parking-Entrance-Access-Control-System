@@ -222,31 +222,28 @@ public class MainOverviewController {
 		// Add observable list data to the table
 		vehicleLoginInformationTableView.setItems(vehicleLoginInformation);
 		// TODO Auto-generated method stub
-		vehicleLoginInformationTableView.setOnMousePressed(new EventHandler<MouseEvent>() {
-			@Override
-			public void handle(MouseEvent e) {
-				if (e.isPrimaryButtonDown() && e.getClickCount() == 2) {
-					VehicleLoginInformation selectedAccessData = vehicleLoginInformationTableView.getSelectionModel()
-							.getSelectedItem();
-					if (selectedAccessData != null) {
-						boolean okClicked = false;
-						try {
-							okClicked = mainApp.showAccessDataEditDialog(selectedAccessData);
-						} catch (ClassNotFoundException e1) {
-							// TODO Auto-generated catch block
-							e1.printStackTrace();
-						}
-						System.out.println(okClicked);
-					} else {
-						// Nothing selected.
-						Alert alert = new Alert(AlertType.WARNING);
-						alert.initOwner(mainApp.getPrimaryStage());
-						alert.setTitle("No Selection");
-						alert.setHeaderText("No vehicle login information Selected");
-						alert.setContentText("Please select an vehicle login information in the table.");
-
-						alert.showAndWait();
+		vehicleLoginInformationTableView.setOnMousePressed(e -> {
+			if (e.isPrimaryButtonDown() && e.getClickCount() == 2) {
+				VehicleLoginInformation selectedAccessData = vehicleLoginInformationTableView.getSelectionModel()
+						.getSelectedItem();
+				if (selectedAccessData != null) {
+					boolean okClicked = false;
+					try {
+						okClicked = mainApp.showAccessDataEditDialog(selectedAccessData);
+					} catch (ClassNotFoundException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
 					}
+					System.out.println(okClicked);
+				} else {
+					// Nothing selected.
+					Alert alert = new Alert(AlertType.WARNING);
+					alert.initOwner(mainApp.getPrimaryStage());
+					alert.setTitle("No Selection");
+					alert.setHeaderText("No vehicle login information Selected");
+					alert.setContentText("Please select an vehicle login information in the table.");
+
+					alert.showAndWait();
 				}
 			}
 		});
@@ -422,22 +419,14 @@ public class MainOverviewController {
 
 	/**
 	 * The action triggered by pushing the button on the GUI
-	 *
-	 * @param event
-	 *            the push button event
 	 */
 	public void m() {
-		Thread t = new Thread(new Runnable() {
-
-			@Override
-			public void run() {
-
-				try {
-					Thread.sleep(5000);
-				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
+		Thread t = new Thread(() -> {
+			try {
+				Thread.sleep(5000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 		});
 
@@ -445,12 +434,13 @@ public class MainOverviewController {
 	}
 
 	@FXML
-	protected void startCamera(ActionEvent event) throws ClassNotFoundException {
+	protected void startCamera() throws ClassNotFoundException {
 		checkModeMySQL = MySQLJDBCDriverConnection.checkMode("SELECT Mode FROM settings WHERE ID=1;");
 		checkModeSQLite = SQLiteJDBCDriverConnection.checkMode("SELECT Mode FROM settings WHERE ID=1;");
 		System.out.println("Mode Status: " + checkModeMySQL + " And " + checkModeSQLite);
 		if (arduino != null) {
-			if (arduino.openPort() == true) {
+			// enable it if you have arduino | arduino.openPort() == true
+			if (arduino.openPort() == false) {
 				if (!this.cameraActive) {
 					// start the video capture
 					try (Connection conn = connectMySQL();
@@ -480,8 +470,8 @@ public class MainOverviewController {
 						String ipAddressReplace = ipCameraURL.replace("http://", "");
 						this.capture.open("http://" + username + ":" + passowrd + "@" + ipAddressReplace);
 					} else {
-						// this.capture.open(0);
-						this.capture.open("http://" + username + ":" + passowrd + "@" + ipCameraURL);
+						this.capture.open(0);
+						// this.capture.open("http://" + username + ":" + passowrd + "@" + ipCameraURL);
 					}
 
 					// is the video stream available?
@@ -1259,7 +1249,7 @@ public class MainOverviewController {
 	}
 
 	@FXML
-	public void handleCheckPort(ActionEvent event) throws ClassNotFoundException {
+	public void handleCheckPort(ActionEvent event) {
 
 	}
 
@@ -1364,7 +1354,7 @@ public class MainOverviewController {
 	 * clicks OK, the changes are saved into the provided Car data object and
 	 * true is returned.
 	 * 
-	 * @param Car
+	 * @param vehicleDataDetails
 	 *            data the Car data object to be edited
 	 * @return true if the user clicked OK, false otherwise.
 	 * @throws ClassNotFoundException
@@ -1441,7 +1431,7 @@ public class MainOverviewController {
 	 * clicks OK, the changes are saved into the provided Car data object and
 	 * true is returned.
 	 * 
-	 * @param Car
+	 * @param vehicleDataDetails
 	 *            data the Car data object to be edited
 	 * @return true if the user clicked OK, false otherwise.
 	 * @throws ClassNotFoundException
@@ -1531,7 +1521,7 @@ public class MainOverviewController {
 	 * clicks OK, the changes are saved into the provided Car data object and
 	 * true is returned.
 	 * 
-	 * @param Car
+	 * @param vehicleDataDetailsController
 	 *            data the Car data object to be edited
 	 * @return true if the user clicked OK, false otherwise.
 	 * @throws ClassNotFoundException
@@ -1609,7 +1599,7 @@ public class MainOverviewController {
 	 * clicks OK, the changes are saved into the provided Car data object and
 	 * true is returned.
 	 * 
-	 * @param Car
+	 * @param login
 	 *            data the Car data object to be edited
 	 * @return true if the user clicked OK, false otherwise.
 	 * @throws ClassNotFoundException
@@ -1687,7 +1677,7 @@ public class MainOverviewController {
 	 * clicks OK, the changes are saved into the provided Car data object and
 	 * true is returned.
 	 * 
-	 * @param Car
+	 * @param vehicleDataDetails
 	 *            data the Car data object to be edited
 	 * @return true if the user clicked OK, false otherwise.
 	 * @throws ClassNotFoundException

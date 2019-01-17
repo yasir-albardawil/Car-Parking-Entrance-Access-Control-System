@@ -75,7 +75,7 @@ public class VehicleDataDetails {
          * @param ownerName
          * @param carBrand
          * @param carModel
-         * @param structureNo
+         * @param vin
          * @param plateNumber
          * @param manufacturingYear
          * @param color

@@ -77,10 +77,9 @@ public class MainApp extends Application {
 
 	/**
 	 * Shows the Main overview inside the root layout.
-	 * 
-	 * @throws ClassNotFoundException
+	 *
 	 */
-	public void showLoginDialog() throws ClassNotFoundException {
+	public void showLoginDialog() {
 		try {
 			// load the FXML resource
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("/net/yasir/view/LoginDialog.fxml"));
