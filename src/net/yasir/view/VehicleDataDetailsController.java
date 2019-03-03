@@ -36,6 +36,9 @@ import net.yasir.connection.MySQLJDBCDriverConnection;
 import net.yasir.connection.SQLiteJDBCDriverConnection;
 import net.yasir.utils.DateUtil;
 
+import static net.yasir.connection.MySQLJDBCDriverConnection.getConnection;
+import static net.yasir.connection.SQLiteJDBCDriverConnection.getConnectionSQLite;
+
 public class VehicleDataDetailsController {
 	Stage primaryStage;
 
@@ -222,24 +225,14 @@ public class VehicleDataDetailsController {
 	 */
 	private static Connection connect() throws ClassNotFoundException {
 		// MySQL connection string
-		final String DB_URL = "jdbc:mysql://localhost/cpeacs_database";
-		final String USER = "root";
-		final String PASS = "";
-		Connection conn = null;
-		try {
-			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection(DB_URL, USER, PASS);
-		} catch (SQLException e) {
-			System.out.println(e.getMessage());
-		}
-		return conn;
+		return getConnection();
 	}
 
 	/**
 	 * Fills all text fields to show details about the person. If the specified
 	 * person is null, all text fields are cleared.
 	 * 
-	 * @param person
+	 * @param carData
 	 *            the person or null
 	 */
 	private void showCarDataDetails(VehicleDataDetails carData) {
@@ -399,17 +392,7 @@ public class VehicleDataDetailsController {
 	 */
 	private static Connection connectMySQL() throws ClassNotFoundException {
 		// MySQL connection string
-		final String DB_URL = "jdbc:mysql://localhost/cpeacs_database";
-		final String USER = "root";
-		final String PASS = "";
-		Connection conn = null;
-		try {
-			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection(DB_URL, USER, PASS);
-		} catch (SQLException e) {
-			System.out.println(e.getMessage());
-		}
-		return conn;
+		return getConnection();
 	}
 
 	/**
@@ -419,14 +402,7 @@ public class VehicleDataDetailsController {
 	 */
 	private static Connection connectsqlite() {
 		// SQLite connection string
-		String url = "jdbc:sqlite:db.sqlite";
-		Connection conn = null;
-		try {
-			conn = DriverManager.getConnection(url);
-		} catch (SQLException e) {
-			System.out.println(e.getMessage());
-		}
-		return conn;
+		return getConnectionSQLite();
 	}
 
 	public void loudCarData() throws ClassNotFoundException {
@@ -505,7 +481,7 @@ public class VehicleDataDetailsController {
 	 * clicks OK, the changes are saved into the provided Car data object and
 	 * true is returned.
 	 * 
-	 * @param Car
+	 * @param carData
 	 *            data the Car data object to be edited
 	 * @return true if the user clicked OK, false otherwise.
 	 * @throws ClassNotFoundException
@@ -553,7 +529,7 @@ public class VehicleDataDetailsController {
 	 * clicks OK, the changes are saved into the provided Car data object and
 	 * true is returned.
 	 * 
-	 * @param Car
+	 * @param carData
 	 *            data the Car data object to be edited
 	 * @return true if the user clicked OK, false otherwise.
 	 * @throws ClassNotFoundException

@@ -31,6 +31,8 @@ import net.yasir.app.Settings;
 import net.yasir.connection.MySQLJDBCDriverConnection;
 import net.yasir.connection.SQLiteJDBCDriverConnection;
 
+import static net.yasir.connection.MySQLJDBCDriverConnection.getConnection;
+
 public class SettingsDialogController {
    
 	private MainApp mainApp;
@@ -84,7 +86,7 @@ public class SettingsDialogController {
 	    /**
 	     * Sets the settings to be edited in the dialog.
 	     * 
-	     * @param carData
+	     * @param settings
 	     * @throws ClassNotFoundException 
 	     */
 	    public void setSettings(Settings settings) throws ClassNotFoundException {
@@ -193,33 +195,16 @@ public class SettingsDialogController {
 	     */
 	    private static Connection connectMySQL() throws ClassNotFoundException {
 	        // MySQL connection string
-	    	final String DB_URL = "jdbc:mysql://localhost/cpeacs_database";
-	    	final String USER = "root";
-	    	final String PASS = "";
-	        Connection conn = null;
-	        try {
-	        	Class.forName("com.mysql.jdbc.Driver");
-	            conn = DriverManager.getConnection(DB_URL,USER,PASS);
-	        } catch (SQLException e) {
-	            System.out.println(e.getMessage());
-	        }
-	        return conn;
-	    }
+			return getConnection();
+		}
 	    /**
 	     * Connect to the sql.sqlite database
 	     * @return the Connection object
 	     */
 	    private static Connection connectsqlite() {
 	        // SQLite connection string
-	    	 String url = "jdbc:sqlite:db.sqlite";
-	        Connection conn = null;
-	        try {
-	            conn = DriverManager.getConnection(url);
-	        } catch (SQLException e) {
-	            System.out.println(e.getMessage());
-	        }
-	        return conn;
-	    }
+			return getConnectionSQLite();
+		}
     
 	public void getSettingsData() throws ClassNotFoundException {
 		try (Connection conn = connectMySQL();

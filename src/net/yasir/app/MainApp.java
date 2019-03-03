@@ -28,6 +28,8 @@ import net.yasir.view.VehicleDataEditDialogController;
 import net.yasir.view.VehicleLoginInformationEditDialogController;
 import net.yasir.view.VehicleLoginInformationManualDialogController;
 
+import static net.yasir.connection.MySQLJDBCDriverConnection.getConnection;
+
 public class MainApp extends Application {
 	MainOverviewController controller = new MainOverviewController();
 	Stage primaryStage;
@@ -267,7 +269,7 @@ public class MainApp extends Application {
 	 * clicks OK, the changes are saved into the provided Car data object and
 	 * true is returned.
 	 * 
-	 * @param Car
+	 * @param carData
 	 *            data the Car data object to be edited
 	 * @return true if the user clicked OK, false otherwise.
 	 * @throws ClassNotFoundException
@@ -315,7 +317,7 @@ public class MainApp extends Application {
 	 * clicks OK, the changes are saved into the provided Car data object and
 	 * true is returned.
 	 * 
-	 * @param Car
+	 * @param vehicleLoginInformation
 	 *            data the Car data object to be edited
 	 * @return true if the user clicked OK, false otherwise.
 	 * @throws ClassNotFoundException
@@ -365,7 +367,7 @@ public class MainApp extends Application {
 	 * clicks OK, the changes are saved into the provided Car data object and
 	 * true is returned.
 	 * 
-	 * @param Car
+	 * @param carData
 	 *            data the Car data object to be edited
 	 * @return true if the user clicked OK, false otherwise.
 	 * @throws ClassNotFoundException
@@ -414,7 +416,7 @@ public class MainApp extends Application {
 	 * clicks OK, the changes are saved into the provided Car data object and
 	 * true is returned.
 	 * 
-	 * @param VehicleLoginInformation
+	 * @param vehicleDataDetails
 	 *            the Car data object to be edited
 	 * @return true if the user clicked OK, false otherwise.
 	 * @throws ClassNotFoundException
@@ -464,7 +466,7 @@ public class MainApp extends Application {
 	 * clicks OK, the changes are saved into the provided Car data object and
 	 * true is returned.
 	 * 
-	 * @param Settings
+	 * @param settings
 	 *            the settings object to be edited
 	 * @return true if the user clicked OK, false otherwise.
 	 * @throws ClassNotFoundException
@@ -577,17 +579,7 @@ public class MainApp extends Application {
 	 */
 	private static Connection connect() throws ClassNotFoundException {
 		// MySQL connection string
-		final String DB_URL = "jdbc:mysql://localhost/cpeacs_database";
-		final String USER = "root";
-		final String PASS = "";
-		Connection conn = null;
-		try {
-			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection(DB_URL, USER, PASS);
-		} catch (SQLException e) {
-			System.out.println(e.getMessage());
-		}
-		return conn;
+		return getConnection();
 	}
 
 	/**

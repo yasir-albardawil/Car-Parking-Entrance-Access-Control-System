@@ -32,9 +32,13 @@ public class MySQLJDBCDriverConnection {
 	 */
 	private static Connection connect() throws ClassNotFoundException {
 		// MySQL connection string
-		final String DB_URL = "jdbc:mysql://localhost/cpeacs_database";
-		final String USER = "root";
-		final String PASS = "";
+		return getConnection();
+	}
+
+	public static Connection getConnection() throws ClassNotFoundException {
+		final String DB_URL = "jdbc:mysql://eu-mm-auto-fra-02-c.cleardb.net/heroku_512373cbbdfb928";
+		final String USER = "bf2baa656a577a";
+		final String PASS = "60c93ad3";
 		Connection conn = null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");

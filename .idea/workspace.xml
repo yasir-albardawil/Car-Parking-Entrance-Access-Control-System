@@ -6,49 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33cda2c9-4dce-4585-8d23-0ec195b0a9df" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="33cda2c9-4dce-4585-8d23-0ec195b0a9df" name="Default" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/openalpr/jni/Alpr.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/openalpr/jni/Alpr.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/openalpr/jni/AlprCoordinate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/openalpr/jni/AlprCoordinate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/openalpr/jni/AlprException.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/openalpr/jni/AlprException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/openalpr/jni/AlprPlate.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/openalpr/jni/AlprPlate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/openalpr/jni/AlprPlateResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/openalpr/jni/AlprPlateResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/openalpr/jni/AlprRegionOfInterest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/openalpr/jni/AlprRegionOfInterest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/openalpr/jni/AlprResults.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/openalpr/jni/AlprResults.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/app/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/app/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/app/MainApp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/app/MainApp$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/app/MainApp$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/app/MainApp$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/app/MainApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/app/MainApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/app/Settings.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/app/Settings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/app/VehicleDataDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/app/VehicleDataDetails.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/app/VehicleLoginInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/app/VehicleLoginInformation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/connection/MySQLJDBCDriverConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/connection/MySQLJDBCDriverConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/connection/SQLiteJDBCDriverConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/connection/SQLiteJDBCDriverConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/json/JSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/json/JSON.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/json/JSONArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/json/JSONArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/json/JSONException.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/json/JSONException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/json/JSONObject$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/json/JSONObject$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/json/JSONObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/json/JSONObject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/json/JSONStringer$Scope.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/json/JSONStringer$Scope.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/json/JSONStringer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/json/JSONStringer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/json/JSONTokener.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/json/JSONTokener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/utils/AESencrp.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/utils/AESencrp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/utils/DateTimePicker$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/utils/DateTimePicker$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/utils/DateTimePicker$InternalConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/utils/DateTimePicker$InternalConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/utils/DateTimePicker.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/utils/DateTimePicker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/utils/DateTimeUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/utils/DateTimeUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/utils/DateUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/utils/DateUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/utils/LocalDateAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/utils/LocalDateAdapter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/utils/MD5encrption.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/utils/MD5encrption.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/utils/Utils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/ExpiryDateStatisticsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/ExpiryDateStatisticsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/LoginDialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/LoginDialog.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/LoginDialogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/LoginDialogController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$12.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$10.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$4.class" afterDir="false" />
@@ -58,31 +19,18 @@
       <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$8.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/MainOverviewController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/ManageUsersAddDialogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/ManageUsersAddDialogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/ManageUsersDialogController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/ManageUsersDialogController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/ManageUsersDialogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/ManageUsersDialogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/ManageUsersEditDialogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/ManageUsersEditDialogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/SettingsDialogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/SettingsDialogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/VehicleDataAddDialogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/VehicleDataAddDialogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/VehicleDataDetailsController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/VehicleDataDetailsController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/VehicleDataDetailsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/VehicleDataDetailsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/VehicleDataEditDialogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/VehicleDataEditDialogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/VehicleLoginInformationEditDialogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/VehicleLoginInformationEditDialogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/VehicleLoginInformationManualDialogController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/VehicleLoginInformationManualDialogController$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/net/yasir/view/VehicleLoginInformationManualDialogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/net/yasir/view/VehicleLoginInformationManualDialogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/build/src/net/yasir/view/LoginDialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/build/src/net/yasir/view/LoginDialog.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/project/src/net/yasir/view/LoginDialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/build/project/src/net/yasir/view/LoginDialog.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/car/Car_Parking_Entrance_Access_Control_System.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/car/Car_Parking_Entrance_Access_Control_System.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/car/Car_Parking_Entrance_Access_Control_System.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/car/Car_Parking_Entrance_Access_Control_System.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/car/Car_Parking_Entrance_Access_Control_System.jnlp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/car/Car_Parking_Entrance_Access_Control_System.jnlp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/yasir/app/MainApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/yasir/app/MainApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/yasir/app/VehicleDataDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/yasir/app/VehicleDataDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/yasir/app/VehicleLoginInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/yasir/app/VehicleLoginInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/yasir/view/LoginDialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/yasir/view/LoginDialog.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net/yasir/view/LoginDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/yasir/view/LoginDialogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/yasir/connection/MySQLJDBCDriverConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/yasir/connection/MySQLJDBCDriverConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/yasir/connection/SQLiteJDBCDriverConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/yasir/connection/SQLiteJDBCDriverConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/yasir/view/MainOverviewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/yasir/view/MainOverviewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/net/yasir/view/ManageUsersDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/yasir/view/ManageUsersDialogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/yasir/view/SettingsDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/yasir/view/SettingsDialogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/yasir/view/VehicleDataAddDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/yasir/view/VehicleDataAddDialogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/yasir/view/VehicleDataDetailsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/yasir/view/VehicleDataDetailsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/net/yasir/view/VehicleLoginInformationManualDialogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/net/yasir/view/VehicleLoginInformationManualDialogController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -94,59 +42,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/yasir/app/VehicleLoginInformation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/yasir/app/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/yasir/app/Settings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-705">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/yasir/view/MainOverviewController.java">
+        <entry file="file://$PROJECT_DIR$/src/net/yasir/view/VehicleDataEditDialogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="471" column="28" lean-forward="true" selection-start-line="471" selection-start-column="28" selection-end-line="471" selection-end-column="28" />
+            <state relative-caret-position="1859">
+              <caret line="229" column="25" lean-forward="true" selection-start-line="229" selection-start-column="25" selection-end-line="229" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/yasir/view/MainOverviewUser.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/yasir/view/ManageUsersAddDialog.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/yasir/view/ManageUsersAddDialogController.java">
+        <entry file="file://$PROJECT_DIR$/src/net/yasir/view/VehicleLoginInformationManualDialogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="131">
+              <caret line="188" column="7" selection-start-line="188" selection-start-column="7" selection-end-line="188" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -154,23 +66,74 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/yasir/view/ManageUsersDialogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="527" column="30" selection-start-line="527" selection-start-column="12" selection-end-line="527" selection-end-column="30" />
+            <state relative-caret-position="302">
+              <caret line="385" column="25" lean-forward="true" selection-start-line="385" selection-start-column="25" selection-end-line="385" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/yasir/view/ExpiryDateStatistics.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/src/net/yasir/view/ManageUsersEditDialogController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/yasir/app/VehicleDataDetails.java">
+        <entry file="file://$PROJECT_DIR$/src/net/yasir/view/VehicleDataDetailsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="217" column="49" selection-start-line="217" selection-start-column="49" selection-end-line="217" selection-end-column="49" />
+            <state relative-caret-position="331">
+              <caret line="404" column="26" lean-forward="true" selection-start-line="404" selection-start-column="26" selection-end-line="404" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/yasir/view/VehicleDataAddDialogController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-511">
+              <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/yasir/view/MainOverviewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="369" column="24" lean-forward="true" selection-start-line="369" selection-start-column="24" selection-end-line="369" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/yasir/view/ManageUsersAddDialogController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="49">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/yasir/view/LoginDialogController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="131">
+              <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/yasir/connection/SQLiteJDBCDriverConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -187,6 +150,16 @@
       <find>COMPort</find>
       <find>COMPort()</find>
       <find>0</find>
+      <find>com</find>
+      <find>Cannot</find>
+      <find>comPort</find>
+      <find>.db</find>
+      <find>connect</find>
+      <find>getConnec</find>
+      <find>getConnection</find>
+      <find>getC</find>
+      <find>getComm</find>
+      <find>getConne</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -195,18 +168,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/net/yasir/app/MainApp.java" />
         <option value="$PROJECT_DIR$/src/net/yasir/view/LoginDialogController.java" />
         <option value="$PROJECT_DIR$/src/net/yasir/app/VehicleDataDetails.java" />
         <option value="$PROJECT_DIR$/src/net/yasir/app/VehicleLoginInformation.java" />
+        <option value="$PROJECT_DIR$/src/net/yasir/connection/MySQLJDBCDriverConnection.java" />
+        <option value="$PROJECT_DIR$/src/net/yasir/app/MainApp.java" />
+        <option value="$PROJECT_DIR$/src/net/yasir/view/SettingsDialogController.java" />
+        <option value="$PROJECT_DIR$/src/net/yasir/connection/SQLiteJDBCDriverConnection.java" />
         <option value="$PROJECT_DIR$/src/net/yasir/view/ManageUsersDialogController.java" />
         <option value="$PROJECT_DIR$/src/net/yasir/view/MainOverviewController.java" />
+        <option value="$PROJECT_DIR$/src/net/yasir/view/VehicleDataAddDialogController.java" />
+        <option value="$PROJECT_DIR$/src/net/yasir/view/VehicleDataDetailsController.java" />
+        <option value="$PROJECT_DIR$/src/net/yasir/view/VehicleLoginInformationManualDialogController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="126" />
-    <option name="y" value="-24" />
+    <option name="x" value="272" />
+    <option name="y" value="-28" />
     <option name="width" value="1385" />
     <option name="height" value="745" />
   </component>
@@ -246,6 +225,13 @@
               <item name="Car-Parking-Entrance-Access-Control-System" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="yasir" type="462c0819:PsiDirectoryNode" />
+              <item name="connection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Car-Parking-Entrance-Access-Control-System" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Car-Parking-Entrance-Access-Control-System" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="yasir" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -262,7 +248,7 @@
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="car_parking_entrance_access_control_system" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547709088939" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551613956601" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -317,6 +303,7 @@
       </method>
     </configuration>
     <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <properties />
       <listeners />
@@ -357,17 +344,42 @@
       <workItem from="1545206179632" duration="241000" />
       <workItem from="1547545469688" duration="120000" />
       <workItem from="1547550392182" duration="2253000" />
-      <workItem from="1547707764079" duration="1324000" />
+      <workItem from="1547707764079" duration="3103000" />
+      <workItem from="1547718891238" duration="52000" />
+      <workItem from="1547718989411" duration="134000" />
+      <workItem from="1547802736356" duration="366000" />
+      <workItem from="1548740663867" duration="605000" />
+      <workItem from="1548751982902" duration="332000" />
+      <workItem from="1548830488923" duration="215000" />
+      <workItem from="1548830979950" duration="736000" />
+      <workItem from="1548862785712" duration="283000" />
+      <workItem from="1549955937447" duration="20000" />
+      <workItem from="1550315192482" duration="2000" />
+      <workItem from="1550318569824" duration="29000" />
+      <workItem from="1550845346510" duration="77000" />
+      <workItem from="1551166446591" duration="22000" />
+      <workItem from="1551192442898" duration="93000" />
+      <workItem from="1551261232819" duration="50000" />
+      <workItem from="1551611455494" duration="2493000" />
     </task>
+    <task id="LOCAL-00001" summary="Update">
+      <created>1547710181955</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1547710181955</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8346000" />
+    <option name="totallyTimeSpent" value="15677000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18657719" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23825504" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Nl-Palette" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -377,16 +389,16 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.31008902" />
-      <window_info anchor="bottom" id="Duplicate detector" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.30878186" />
+      <window_info anchor="bottom" id="Duplicate detector" order="11" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -405,28 +417,25 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/net/yasir/app/MainApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="87" column="28" selection-start-line="87" selection-start-column="28" selection-end-line="87" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/LoginDialogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="127" column="35" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/yasir/view/ExpiryDateStatisticsController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -434,68 +443,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/MainOverview.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/MainOverviewUser.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/yasir/view/ManageUsersAddDialog.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/ManageUsersAddDialogController.java">
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/app/Settings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/yasir/view/ExpiryDateStatistics.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/ManageUsersDialogController.java">
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/MainOverviewUser.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="527" column="30" selection-start-line="527" selection-start-column="12" selection-end-line="527" selection-end-column="30" />
+        <state relative-caret-position="1000">
+          <caret line="96" column="55" selection-start-line="96" selection-start-column="55" selection-end-line="96" selection-end-column="55" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/app/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-480">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/yasir/app/VehicleDataDetails.java">
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/app/MainApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="217" column="49" selection-start-line="217" selection-start-column="49" selection-end-line="217" selection-end-column="49" />
+        <state relative-caret-position="306">
+          <caret line="581" column="22" selection-start-line="581" selection-start-column="22" selection-end-line="581" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/MainOverview.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/SettingsDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="88" column="26" selection-start-line="88" selection-start-column="26" selection-end-line="88" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/yasir/app/VehicleLoginInformation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
+        <state relative-caret-position="-100">
           <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/yasir/app/Settings.java">
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/app/VehicleDataDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-705">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="232">
+          <caret line="190" column="50" lean-forward="true" selection-start-line="190" selection-start-column="50" selection-end-line="190" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/yasir/app/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/connection/MySQLJDBCDriverConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="149">
+          <caret line="37" column="29" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/connection/SQLiteJDBCDriverConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="39" column="37" lean-forward="true" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/LoginDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="86" column="22" selection-start-line="86" selection-start-column="22" selection-end-line="86" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/yasir/view/MainOverviewController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="471" column="28" lean-forward="true" selection-start-line="471" selection-start-column="28" selection-end-line="471" selection-end-column="28" />
+        <state relative-caret-position="291">
+          <caret line="369" column="24" lean-forward="true" selection-start-line="369" selection-start-column="24" selection-end-line="369" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/ManageUsersAddDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/ManageUsersDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="385" column="25" lean-forward="true" selection-start-line="385" selection-start-column="25" selection-end-line="385" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/ManageUsersEditDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/VehicleDataAddDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-511">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/VehicleDataDetailsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="404" column="26" lean-forward="true" selection-start-line="404" selection-start-column="26" selection-end-line="404" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/VehicleLoginInformationManualDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="188" column="7" selection-start-line="188" selection-start-column="7" selection-end-line="188" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/yasir/view/VehicleDataEditDialogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1859">
+          <caret line="229" column="25" lean-forward="true" selection-start-line="229" selection-start-column="25" selection-end-line="229" selection-end-column="25" />
         </state>
       </provider>
     </entry>

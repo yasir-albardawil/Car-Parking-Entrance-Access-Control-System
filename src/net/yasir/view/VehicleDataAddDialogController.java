@@ -62,7 +62,7 @@ public class VehicleDataAddDialogController {
 	/**
 	 * Sets the carData to be edited in the dialog.
 	 * 
-	 * @param carData
+	 * @param vehicleDataDetails
 	 * @throws ClassNotFoundException
 	 */
 	public void setCarData(VehicleDataDetails vehicleDataDetails) throws ClassNotFoundException {

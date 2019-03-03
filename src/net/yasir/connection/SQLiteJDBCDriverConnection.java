@@ -37,6 +37,10 @@ public class SQLiteJDBCDriverConnection {
 	 */
 	private static Connection connect() {
 		// SQLite connection string
+		return getConnectionSQLite();
+	}
+
+	public static Connection getConnectionSQLite() {
 		String url = "jdbc:sqlite:db.sqlite";
 		Connection conn = null;
 		try {

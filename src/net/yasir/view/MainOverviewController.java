@@ -78,6 +78,9 @@ import net.yasir.connection.SQLiteJDBCDriverConnection;
 import net.yasir.utils.DateUtil;
 import net.yasir.utils.Utils;
 
+import static net.yasir.connection.MySQLJDBCDriverConnection.getConnection;
+import static net.yasir.connection.SQLiteJDBCDriverConnection.getConnectionSQLite;
+
 /**
  * The controller for our application, where the application logic is
  * implemented. It handles the button for starting/stopping the camera and the
@@ -354,17 +357,7 @@ public class MainOverviewController {
 	 */
 	private static Connection connectMySQL() throws ClassNotFoundException {
 		// MySQL connection string
-		final String DB_URL = "jdbc:mysql://localhost/cpeacs_database";
-		final String USER = "root";
-		final String PASS = "";
-		Connection conn = null;
-		try {
-			Class.forName("com.mysql.jdbc.Driver");
-			conn = DriverManager.getConnection(DB_URL, USER, PASS);
-		} catch (SQLException e) {
-			System.out.println(e.getMessage());
-		}
-		return conn;
+		return getConnection();
 	}
 
 	/**
@@ -374,14 +367,7 @@ public class MainOverviewController {
 	 */
 	private static Connection connectsqlite() {
 		// SQLite connection string
-		String url = "jdbc:sqlite:db.sqlite";
-		Connection conn = null;
-		try {
-			conn = DriverManager.getConnection(url);
-		} catch (SQLException e) {
-			System.out.println(e.getMessage());
-		}
-		return conn;
+		return getConnectionSQLite();
 	}
 
 	public void loudVehicleLoginInformation() throws ClassNotFoundException {
@@ -479,16 +465,12 @@ public class MainOverviewController {
 						this.cameraActive = true;
 
 						// grab a frame every 33 ms (30 frames/sec)
-						Runnable frameGrabber = new Runnable() {
-
-							@Override
-							public void run() {
-								// effectively grab and process a single frame
-								Mat frame = grabFrame();
-								// convert and show the frame
-								Image imageToShow = Utils.mat2Image(frame);
-								updateImageView(currentFrame, imageToShow);
-							}
+						Runnable frameGrabber = () -> {
+							// effectively grab and process a single frame
+							Mat frame = grabFrame();
+							// convert and show the frame
+							Image imageToShow = Utils.mat2Image(frame);
+							updateImageView(currentFrame, imageToShow);
 						};
 
 						this.timer = Executors.newSingleThreadScheduledExecutor();
