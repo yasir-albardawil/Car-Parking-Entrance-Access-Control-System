@@ -84,7 +84,6 @@ public class VehicleLoginInformationManualDialogController {
 	 * 
 	 * @throws ClassNotFoundException
 	 * @throws IOException
-	 * @throws s
 	 */
 	@FXML
 	private void initialize() throws ClassNotFoundException, IOException {
@@ -145,7 +144,7 @@ public class VehicleLoginInformationManualDialogController {
 	 */
 	private static Connection connectsqlite() {
 		// SQLite connection string
-		return getConnectionSQLite()
+		return getConnectionSQLite();
 	}
 
 	/**
