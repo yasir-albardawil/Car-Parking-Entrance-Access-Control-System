@@ -32,6 +32,7 @@ import net.yasir.connection.MySQLJDBCDriverConnection;
 import net.yasir.connection.SQLiteJDBCDriverConnection;
 
 import static net.yasir.connection.MySQLJDBCDriverConnection.getConnection;
+import static net.yasir.connection.SQLiteJDBCDriverConnection.getConnectionSQLite;
 
 public class SettingsDialogController {
    
@@ -49,11 +50,11 @@ public class SettingsDialogController {
 	private Stage dialogStage;
 	private Settings settings;
 	private boolean okClicked = false;
-	ObservableList<String> portList;
+	private ObservableList<String> portList;
 	public static SerialPort arduino;
 	
 
-	 ObservableList<String> list = FXCollections.observableArrayList(
+	 private ObservableList<String> list = FXCollections.observableArrayList(
 		"JMetroDarkTheme", "JMetroLightTheme", "brume", "modena", "DarkTheme", "bootstrap2", "bootstrap3"
 	);
 	/**
@@ -97,7 +98,7 @@ public class SettingsDialogController {
 	    /**
 	     * Returns true if the user clicked OK, false otherwise.
 	     * 
-	     * @return
+	     * @return okClicked
 	     */
 	    public boolean isOkClicked() {
 	        return okClicked;
